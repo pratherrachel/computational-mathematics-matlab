@@ -1,0 +1,48 @@
+% KSSstep - performs one time step of a KSS method for solving
+% P_t + LP = 0, on a Chebyshev grid, where
+% LP = -a2 P_XX + a1 P_X + a0 P.
+%
+% This function implements a KSS method via a physical-space polynomial 
+% evaluation. This approach applies a different polynomial approximation 
+% of the solution operator, exp(-J*dt), to each point in the solution 
+% vector directly.
+%
+% The frequency-dependent coefficients for each polynomial are pre-computed
+% by the 'getslopes' function. The polynomial is then applied to the 
+% solution vector and its derivatives (LP, L2P) using element-wise vector
+% multiplication.
+%
+% input:
+% P     - solution from the previous time step.
+% dT    - the time step.
+% a0    - coefficient vector.
+% a1    - coefficient vector.
+% a2    - coefficient vector.
+% D1    - first Chebyshev derivative matrix.
+% D2    - second Chebyshev derivative matrix.
+% ord   - order of accuracy in time.
+%
+% output:
+% P - solution at the new time.
+function P = KSSstep(P,dT,a0,a1,a2,D1,D2,ord)
+
+% Compute the 3xN matrix of frequency-dependent polynomial coefficients
+coeffs = getslopes(dT, ord, a0, a2);  
+
+% Apply the operator L once to get LP = L*P
+LP  = applyop(P, a0, a1, a2, D1, D2);
+
+% Apply the operator L a second time to get L2P = L*(L*P)
+L2P = applyop(LP, a0, a1, a2, D1, D2);
+
+% Apply the polynomial to the vectors P, LP and L2P 
+if ord == 2
+   % Extract coefficients for c0, c1, and c2 as column vectors
+   c0 = coeffs(1,:)';   c1 = coeffs(2,:)';   c2 = coeffs(3,:)';
+
+   %Evalute the second-ord polynomial in the physical space
+   P = c0.*P + c1.*LP + c2.*L2P;
+else
+  c0 = coeffs(1,:)';   c1 = coeffs(2,:)';
+  P = c0.*P + c1.*LP;
+end

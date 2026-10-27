@@ -1,0 +1,27162 @@
+testing
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Incorrect dimensions for matrix multiplication. Check that the
+number of columns in the first matrix matches the number of rows
+in the second matrix. To operate on each element of the matrix
+individually, use TIMES (.*) for elementwise multiplication.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getslopes', 'C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\getslopes.m', 29)" style="font-weight:bold">getslopes</a> (<a href="matlab: opentoline('C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\getslopes.m',29,0)">line 29</a>)
+L2=a2*ws2+1i*a1bar*ws+a0bar;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('KSSstep', 'C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\KSSstep.m', 34)" style="font-weight:bold">KSSstep</a> (<a href="matlab: opentoline('C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\KSSstep.m',34,0)">line 34</a>)
+[M,B]=getslopes(@solnop,dt,a0,a1,a2,ws);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DLWE1wpsolve_opt', 'C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\DLWE1wpsolve_opt.m', 100)" style="font-weight:bold">DLWE1wpsolve_opt</a> (<a href="matlab: opentoline('C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\DLWE1wpsolve_opt.m',100,0)">line 100</a>)
+    P=KSSstep(P,dT,a2pad,a1pad,a0pad,ws,pgibbs);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', 'C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\testing.m', 23)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\testing.m',23,0)">line 23</a>)
+                DLWE1wpsolve_opt(N,sigexp,CFLmult,pgibbs)
+
+<a href="matlab:helpview('matlab','error_innerdim')" style="font-weight:bold">Related documentation</a>
+} 
+testing
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4289
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8577
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7199
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4575
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.9871
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.9741
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+        4096
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7155
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4310
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8796
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.8301
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.9483
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       16384
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.8966
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.3277
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.3277
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.3277
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.6554
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.6554
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.6554
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.3108
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.3108
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.3108
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    2.6216
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    2.6216
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    2.6216
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    5.2432
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    5.2432
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    5.2432
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   10.4932
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   10.4932
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   10.4932
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   20.9863
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   20.9863
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   20.9863
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   42.0803
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   42.0803
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   42.0803
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   84.5944
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   84.5944
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   84.5944
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8620
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7240
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.5183
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   55.3203
+
+
+N =
+
+       65536
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   55.3203
+
+diary off
+testing
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.3107
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.3107
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.3107
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    2.6215
+
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('KSSstep')" style="font-weight:bold">KSSstep</a>
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DLWE1wpsolve_opt', 'C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\DLWE1wpsolve_opt.m', 100)" style="font-weight:bold">DLWE1wpsolve_opt</a> (<a href="matlab: opentoline('C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\DLWE1wpsolve_opt.m',100,0)">line 100</a>)
+    P=KSSstep(P,dT,a2pad,a1pad,a0pad,ws,pgibbs);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', 'C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\testing.m', 24)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('C:\Users\chels\OneDrive\Documents\Research\JCP Paper\ChelseaJCP\ChelseaJCP\code\oneway\testing.m',24,0)">line 24</a>)
+                DLWE1wpsolve_opt(N,sigexp,CFLmult,pgibbs)
+} 
+testing
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   20.9729
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   20.9729
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   20.9729
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   41.9458
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   41.9458
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   41.9458
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   83.8917
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   83.8917
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   83.8917
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+  167.8906
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+  167.8906
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+  167.8906
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+  335.7812
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+  335.7812
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     5
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+  335.7812
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     6
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     7
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     8
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+     9
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    10
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    11
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    14
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    16
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    3.4288
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    32
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    6.8576
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+    64
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   13.7152
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   128
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   27.4479
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+   54.8959
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    15
+
+
+CFLmult =
+
+   256
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+   54.8959
+
+diary off
+testing
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    12
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     1
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.2143
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     2
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.4286
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     4
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    0.8572
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     0
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     1
+
+
+CFL =
+
+    1.7144
+
+
+N =
+
+      262144
+
+
+sigexp =
+
+    13
+
+
+CFLmult =
+
+     8
+
+
+pgibbs =
+
+     2
+
+
+CFL =
+
+    1.7144
+
+diary off
